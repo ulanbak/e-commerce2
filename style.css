@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 /* We need to decide what font to use in our project */
 
 body, html {
@@ -12,7 +14,6 @@ body, html {
 
 /* footer style */
 .subscribe-bar {
-    box-sizing: border-box;
     width: 100%;
     height: 100px;
     /* padding: 20px; */
@@ -25,8 +26,7 @@ body, html {
     padding-top: 20px;
 }
 
-.subscribe-bar *
-{
+.subscribe-bar * {
     /* display: inline-block; */
 }
 
