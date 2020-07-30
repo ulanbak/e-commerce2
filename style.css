@@ -1,0 +1,72 @@
+
+/* We need to decide what font to use in our project */
+
+body, html {
+    padding:0px;
+    margin: 0px;
+}
+
+
+
+
+
+/* footer style */
+.subscribe-bar {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background: #1D2224;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subscribe-bar *
+{
+    /* display: inline-block; */
+}
+
+.subscribe-bar h3 {
+    color: white;
+    margin-right: 20px;
+}
+
+.subscribe-bar #subscribe {
+    justify-self: center;
+}
+.subscribe-bar input{
+    /* width: 200px; */
+    height: 40%;
+}
+
+.subscribe-bar #subscribe-btn {
+    /* width: 15%; */
+    height: 50%;
+    background-color: #FF324D;
+    border: none;
+}
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.categories input {
+    width:300px;
+    height: 30px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.categories select {
+    height: 36px;
+    width: 120px;
+}
+   .phone a {
+       color: black;
+       font-size: large;
+   }
+   
