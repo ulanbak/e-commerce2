@@ -31,6 +31,12 @@ body {
     border: 1px solid black;
 }
 
+
+.upper-section {
+    margin: 20px 215px;
+    margin-left: 250px;
+}
+
 .dropdown-menu.nested {
     display: none;
     padding-left: 0;
