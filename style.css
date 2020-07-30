@@ -94,6 +94,12 @@ footer {
     flex-wrap: wrap;
 }
 
+footer a {
+    text-decoration: none;
+    /* Use inherit to get default styling of the document */
+    color: inherit; 
+}
+
 .subscribe-bar {
     /* flex-grow: 4; */
 
@@ -138,6 +144,27 @@ footer {
     background-color: #FF324D;
     color: white;
     border: none;
+}
+
+.business-info {
+    width: 40%;
+
+}
+
+.business-info .icons {
+    display: inline-block;
+    width:30px;
+    text-align: center;
+}
+
+.business-info a {
+
+
+}
+
+.social-links {
+    width: 100%;
+    text-align: center;
 }
 
 /*****************************************/
