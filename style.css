@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding:0px;
+    margin: 0px;
+}
+
 .all-categories {
     background-color: ;
     color: white;
@@ -8,11 +17,8 @@
     
 }
 .main-containter {
-    
     display: flex;
     flex-direction: column;
-   
-   
     justify-content: flex-start;
     width: 200px;
     height: 80%;
@@ -25,7 +31,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /*border: 1ifypx solid black;*/
+    /*border: 1px solid black;*/
     padding: 5%;
 }
 
@@ -47,19 +53,8 @@
 .{
     justify-content: space-evenly;
 }
-* {
-    box-sizing: border-box;
-}
+
 /* We need to decide what font to use in our project */
-
-body, html {
-    padding:0px;
-    margin: 0px;
-}
-
-/* added comment */
-
-
 
 /* footer style */
 .subscribe-bar {
@@ -75,9 +70,9 @@ body, html {
     padding-top: 20px;
 }
 
-.subscribe-bar * {
+/* .subscribe-bar * {
     /* display: inline-block; */
-}
+} */
 
 .subscribe-bar h3 {
     color: white;
