@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* We need to decide what font to use in our project */
 
 body, html {
     padding:0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
