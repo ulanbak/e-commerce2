@@ -1,3 +1,52 @@
+.all-categories {
+    background-color: ;
+    color: white;
+    width: 160px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.main-containter {
+    
+    display: flex;
+    flex-direction: column;
+   
+   
+    justify-content: flex-start;
+    width: 200px;
+    height: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 1ifypx solid black;*/
+    padding: 5%;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.languagebar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.flag{
+    border-radius: 10px;
+}
+.{
+    justify-content: space-evenly;
+}
 * {
     box-sizing: border-box;
 }
