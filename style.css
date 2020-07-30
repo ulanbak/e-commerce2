@@ -49,10 +49,10 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dddddd;
-    margin-bottom: 30px;
     max-width: 1128px;
     min-width: 900px;
     margin: auto;
+    margin-bottom: 30px;
 }
     .exclusive .exclusive-menu a {
         margin: 0 15px;
@@ -142,6 +142,7 @@ body {
 .middle-section .flash-sale {
     margin: 50px -250px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
     .middle-section .flash-sale img {
