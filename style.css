@@ -31,7 +31,26 @@ body {
     border: 1px solid black;
 }
 
+.dropdown-menu.nested {
+    display: none;
+    padding-left: 0;
+    margin-left: 100px;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 1000;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li {
+    padding: 5px;
+    list-style: none;
+}
 
+.dropdown a:hover + .dropdown-menu.nested {
+    display: flex;
+    
+}
 
 
 
