@@ -4,13 +4,35 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> ae6f7e5c61befac70ee48efd45aa76ea3537f007
 body {
     padding:0px;
     margin: 0px;
     /* font-family: 'Poppins', sans-serif; */
 }
 
+<<<<<<< HEAD
+=======
+/* Top Bar lang */
+
+.languagebar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+}
+.left    {
+    display: flex;
+}
+
+
+
+
+>>>>>>> ae6f7e5c61befac70ee48efd45aa76ea3537f007
 /* Navbar - Azamat's part STARTS here */
 .top-navbar-container {
     display: flex;
@@ -188,11 +210,103 @@ ul li {
 /* Middle Section (Max working) */
 
 .middle-section {
-    max-width: 1300px;
+
+    max-width: 1250px;
+
     margin: auto;
 }
 .exclusive, .carousel, .exclusive > .exclusive-menu {
     display: flex;
+
+}
+.exclusive {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    margin: auto;
+    margin-bottom: 30px;
+}
+    .exclusive .exclusive-menu a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #1D2224;
+        font-weight: 600;
+    }
+    .exclusive .exclusive-menu a:focus {
+        color: #FF324D;
+    }
+    .exclusive h1 {
+        font-size: xx-large;
+    }
+    .carousel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .carousel .previous, .carousel .next {
+        align-self: center; 
+    }
+    .carousel .select {
+        width: 250px;
+        box-shadow: 0 0 11px rgba(0,0,0,0.1);
+        background-color: #faf9f9;
+        margin: 20px;
+        position: relative;
+    }
+        .carousel .select .new {
+            font-size: small;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: #FF9F00;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 1.2px;
+        }
+
+        .select img {
+            width: 100%;
+        }
+        .select .info {
+            padding: 10px;
+        }
+        .select .info div {
+            margin: 7px 0;
+        }
+        .select .info h4 {
+            margin: 0;
+        }
+        .select .info .price {
+            color: red;
+            font-weight: bolder;
+        }
+        .select .info .old-price {
+            text-decoration: line-through;
+            color: rgb(128, 128, 128);
+        }
+        .select .info .off {
+            color: rgb(29, 185, 29);
+        }
+
+        .select .info .select-price {
+            display: flex;
+        }
+        .select .info .select-price div {
+            margin: 0 5px;
+        }
+        .select .info .rating .checked {
+            color: gold;
+        }
+        .select .info .rating span {
+            color: #8F95A7;
+        }
+
+/**/
+.middle-section .super-sale {
+    margin: 60px auto;
+
+
 }
 .exclusive {
     justify-content: space-between;
@@ -281,6 +395,27 @@ ul li {
     text-align: center;
     margin: 60px 0;
 }
+
+    .middle-section .super-sale img {
+        width: 540px;
+        text-align: center;
+        margin: 20px;
+    }
+
+.middle-section .flash-sale {
+    margin: 50px -250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .middle-section .flash-sale img {
+        width: 550px;
+        height: 300px;
+        margin: 20px 10px;
+    }
+
+
+/* PLEASE STYLE BELLOW THIS CHUNK  */
 
     .middle-section .super-sale img {
         width: 540px;
