@@ -4,19 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> ae6f7e5c61befac70ee48efd45aa76ea3537f007
 body {
     padding:0px;
     margin: 0px;
     /* font-family: 'Poppins', sans-serif; */
 }
 
-<<<<<<< HEAD
-=======
 /* Top Bar lang */
 
 .languagebar {
@@ -32,7 +25,6 @@ body {
 
 
 
->>>>>>> ae6f7e5c61befac70ee48efd45aa76ea3537f007
 /* Navbar - Azamat's part STARTS here */
 .top-navbar-container {
     display: flex;
