@@ -4,12 +4,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-    
+
 body {
     padding:0px;
     margin: 0px;
     /* font-family: 'Poppins', sans-serif; */
 }
+
+/* Top Bar lang */
+
+.languagebar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+}
+.left    {
+    display: flex;
+}
+
+
+
 
 /* Navbar - Azamat's part STARTS here */
 .top-navbar-container {
@@ -188,7 +203,7 @@ ul li {
 /* Middle Section (Max working) */
 
 .middle-section {
-    max-width: 1300px;
+    max-width: 1250px;
     margin: auto;
 }
 .exclusive, .carousel, .exclusive > .exclusive-menu {
@@ -198,8 +213,6 @@ ul li {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dddddd;
-    max-width: 1128px;
-    min-width: 900px;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -215,9 +228,12 @@ ul li {
     .exclusive h1 {
         font-size: xx-large;
     }
-.carousel {
-    justify-content: center; 
-}
+    .carousel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .carousel .previous, .carousel .next {
         align-self: center; 
     }
@@ -278,8 +294,8 @@ ul li {
 
 /**/
 .middle-section .super-sale {
-    text-align: center;
-    margin: 60px 0;
+    margin: 60px auto;
+
 }
 
     .middle-section .super-sale img {
