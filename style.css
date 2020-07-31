@@ -121,7 +121,6 @@ body {
     border: 1px solid black;
 }
 
-
 .upper-section {
     margin: 20px 215px;
     margin-left: 250px;
@@ -316,17 +315,13 @@ ul li {
    justify-content: space-between;
 }
 
-.flag{
+.flag {
     border-radius: 10px;
 }
+
 .{
     justify-content: space-evenly;
 }
-
-
-
-
-
 
 .search {
     display: flex;
@@ -349,8 +344,6 @@ ul li {
        font-size: large;
    }
    
-
-
    /*FOOTER SECTION PLEASE DON'T MODIFY */
    /*************************************/
    /* footer style */
@@ -422,8 +415,6 @@ footer a {
 }
 
 .business-info a {
-
-
 }
 
 .social-links {
