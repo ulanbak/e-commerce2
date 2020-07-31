@@ -102,7 +102,7 @@ body {
 /* Navbar - Azamat's part ENDS here */
 
 .all-categories {
-    background-color: ;
+    /* background-color: ; */
     color: white;
     width: 160px;
     height: 30px;
@@ -319,9 +319,9 @@ ul li {
     border-radius: 10px;
 }
 
-.{
+/* .{
     justify-content: space-evenly;
-}
+} */
 
 .search {
     display: flex;
@@ -414,8 +414,8 @@ footer a {
     text-align: center;
 }
 
-.business-info a {
-}
+/* .business-info a {
+} */
 
 .social-links {
     width: 100%;
