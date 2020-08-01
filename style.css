@@ -141,12 +141,13 @@ body {
     padding-left: 100px;
     margin-left: 100px;
     position: absolute;
+    box-shadow: 1px 40px 10.5px rgba(0,0,0,0.1);
     
     background-color: white;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-    display: none;
+/*    display: none; */
 }
 .categories .dropdown:hover > .dropdown-menu.nested,
 .dropdown-menu.nested:hover {
