@@ -172,7 +172,7 @@ body {
 
 
 
-ul li {
+.dropdown-menu li {
     padding: 10px;
     list-style: none;
     color: black;
@@ -226,15 +226,18 @@ nav {
     align-self: flex-end;
     position: relative;
 }
+.upper-carousel .item {
+    text-align: center;
+}
 .upper-carousel .shop-now {
     position: absolute;
-    top: 100px;
-    left: 30px;
+    top: 70px;
+    left: 90px;
 }    
 .upper-carousel .square-icons {
     position: absolute;
     bottom: 45px;
-    left: 35%;
+    left: 40%;
 }
 .upper-carousel i {
     padding: 2.3px;
