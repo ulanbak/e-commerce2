@@ -142,7 +142,7 @@ body {
     margin-left: 100px;
     position: absolute;
     box-shadow: 1px 40px 10.5px rgba(0,0,0,0.1);
-    
+    transition: all 0.5s ease-out;
     background-color: white;
     z-index: 1000;
     opacity: 0;
@@ -190,7 +190,7 @@ body {
 .upper-section .categories {
     width: 300px;
     margin-right: 0;
-    box-shadow: 0 0 11px rgba(0,0,0,0.1);
+    box-shadow: 2px 5px 11px rgba(0,0,0,0.1);
     padding-left: 0px;
 }
    /* .dropdown.dropdown-mega-menu {
@@ -334,9 +334,7 @@ nav {
             border-radius: 1.2px;
         }
 
-        .select img {
-            width: 100%;
-        }
+
         .select .info {
             padding: 10px;
         }
@@ -370,6 +368,61 @@ nav {
         .select .info .rating span {
             color: #8F95A7;
         }
+    /*  select cart section */
+        .middle-section .carousel .select .cart {
+            position: absolute;
+            top: 8.5em;
+            width: 100%;
+            text-align: center;
+            padding-top: 2em;
+            transition: all 0.3s ease-in-out;
+        }
+        .middle-section .carousel .select .cart a {
+            opacity: 0;
+            padding-top: 1em;
+            background-color: rgb(248, 248, 248);
+            padding: 8px 10px;
+            margin: 0 5px;
+            color: rgb(31, 31, 31);
+            border: 1px solid #ebeaea; 
+        }
+        .middle-section .carousel .select .cart a:nth-child(1) {
+            transition: all 0.1s ease-in-out;
+
+        }
+        .middle-section .carousel .select .cart a:nth-child(2) {
+            transition: all 0.3s ease-in-out;
+        }
+        .middle-section .carousel .select .cart a:nth-child(3) {
+            transition: all 0.5s ease-in-out;
+        }
+        .middle-section .carousel .select .cart a:nth-child(4) {
+            transition: all 0.6s ease-in-out;
+        }
+
+    .carousel .select:hover .cart a {
+        opacity: 1;
+    }
+    .carousel .select .cart a:hover {
+        color: white;
+        background-color: rgb(233, 77, 50);
+        border: 0;
+    }
+    .carousel .select:hover .cart {
+        padding-top: 0em;
+    }
+
+    .carousel .select:hover img {
+        opacity: 0.6;
+    }
+    .select  img {
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+
+
 
 /**/
 .middle-section .super-sale {
