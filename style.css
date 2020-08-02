@@ -368,6 +368,10 @@ nav {
         .select .info .rating span {
             color: #8F95A7;
         }
+        .select .info .rating span {
+            cursor: pointer;
+        }
+
     /*  select cart section */
         .middle-section .carousel .select .cart {
             position: absolute;
@@ -418,6 +422,7 @@ nav {
     .select  img {
         width: 100%;
         transition: all 0.3s ease-in-out;
+        cursor: pointer;
     }
 
 
