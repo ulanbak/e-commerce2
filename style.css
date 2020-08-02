@@ -686,8 +686,15 @@ footer a {
 .subscribe-bar #subscribe-btn {
     width: 100px;
     background-color: #FF324D;
+    border: 1px solid #FF324D;
     color: white;
     border: none;
+}
+
+.subscribe-bar #subscribe-btn:hover {
+    transition: 300ms ease-in-out;
+    background-color: white;
+    color: black;
 }
 
 .footer-container {
