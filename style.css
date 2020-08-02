@@ -9,7 +9,7 @@ body {
     margin: 0px;
 }
 
-/* Top Bar lang */
+/* Top Bar language */
 
 .languagebar {
     display: flex;
@@ -34,6 +34,46 @@ body {
 .left    {
     display: flex;
 }
+
+/* Ulanbek Top Search Bar STARTS here */
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+    height: 100px;
+}
+
+.search .logo h1 {
+    margin: 0;
+}
+
+.categories input {
+    width:350px;
+    height: 50px;
+    margin-left: 0;
+    padding: 10px;
+}
+.categories select {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+}
+   .phone .fas {
+       color: red;
+       font-size: large;
+       text-decoration: none;
+   }
+   
+   .phone a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Ulanbek Top Search Bar ENDS here */
 
 /* Navbar - Azamat's part STARTS here */
 .top-navbar-container {
@@ -609,26 +649,7 @@ nav {
     justify-content: space-evenly;
 } */
 
-.search {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-}
-.categories input {
-    width:300px;
-    height: 30px;
-    margin-left: 0;
-    padding-left: 0;
-}
-.categories select {
-    height: 36px;
-    width: 120px;
-}
-   .phone a {
-       color: black;
-       font-size: large;
-   }
    
    /*FOOTER SECTION PLEASE DON'T MODIFY */
    /*************************************/
