@@ -752,10 +752,16 @@ footer a {
 }
 
 .instagram img {
+    position: relative;
     width: 84px;
     height: 84px;
     object-fit: cover;
     /*cropping*/
+}
+
+.instagram img:hover {
+    opacity: 0.5;
+    transition: 300ms ease-in-out;
 }
 
 .services>div {
