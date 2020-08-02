@@ -627,12 +627,13 @@ nav {
 footer {
     display: flex;
     flex-wrap: wrap;
+    /* align-items: flex-start; */
 }
 
 footer a {
     text-decoration: none;
     /* Use inherit to get default styling of the document */
-    color: inherit; 
+    color: #9A9897; 
 }
 
 .subscribe-bar {
@@ -645,7 +646,6 @@ footer a {
     justify-content: center;
     /*Centering vertically in flex */
     align-items: center;
-
 
     flex-wrap: wrap;
     flex-direction: row;
@@ -679,33 +679,85 @@ footer a {
     border: none;
 }
 
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer-container > div {
+    width: 80%;
+}
+
+.links-container {
+    display:flex;
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* justify-content: center; */
+    justify-content: space-around;
+
+}
+
+
 .business-info {
-    width: 40%;
+    width: 25%;
+    color: #9A9897; 
 
 }
 
 .business-info .icons {
-    display: inline-block;
+    /* display: inline-block;
     width:30px;
-    text-align: center;
+    text-align: center; */
+    margin-right: 20px;
+    
 }
 
-/* .business-info a {
-} */
-
-.social-links {
-    width: 100%;
-    text-align: center;
+.business-info div {
+    margin: 15px auto;
 }
+
+.business-info, .useful-links, .my-account, .instagram {
+    /* padding: 0 20px; */
+    /* margin: 0 15px; */
+    font-size: smaller;
+    /* align-self: flex-start; */
+}
+
+.useful-links, .my-account  {
+    margin: 30px;
+}
+
+.instagram img {
+    width: 84px;
+    height: 84px;
+    object-fit: cover; /*cropping*/
+}
+
 
 .services {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
 }
 
-.services div {
-    width: 600px;
+.services > div {
+    width: 30%;
+    text-align: center;
+}
+
+
+.social-links {
+    /* padding: 10px; */
+    height: 300px;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
 }
 
 /*****************************************/
