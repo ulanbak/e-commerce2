@@ -58,20 +58,20 @@ body {
 
 .search-categories input, .search-categories select {
     height: 50px;
+    width:450px;
     padding: 10px;
     font-size: 16px;
     color: gray;
+  
 }
 
 .search-categories select option {
     color: black;
 }
 
-.search-categories input {
-    width:450px;
-}
 .search-categories select {
     width: 160px;
+    margin-right: -4px;
 }
    .phone .fas {
        color: red;
@@ -84,6 +84,19 @@ body {
     font-size: 15px;
     text-decoration: none;
 }
+.search_btn {
+    background-color: white;
+    font-size: x-large;
+    border: 0;
+ }
+ .search_btn:hover {
+     color: rgb(233, 77, 50);
+ }
+ @media (max-width:980px) {
+     .search-categories {
+         display: none;
+     }
+ }
 
 /* Ulanbek Top Search Bar ENDS here */
 
