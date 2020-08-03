@@ -72,7 +72,15 @@ body {
 /* Ulanbek Top Search Bar ENDS here */
 
 /* Navbar - Azamat's part STARTS here */
-.top-navbar-container {
+.top-navbar-container1 {
+    background-color: #1d2224 !important;
+    min-height: 65px;
+    padding: 0;
+    margin: 0;
+    max-width: 1250px;
+}
+
+.top-navbar-container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
