@@ -17,7 +17,7 @@ body {
     /* width: 1100px; */
     max-width: 1250px;
     margin: auto;
-    padding: 10px 0;
+    padding: 15px 0;
     color: gray;
     font-size: 15px;
 }
@@ -47,7 +47,7 @@ body {
     align-items: center;
     /* width: 1100px; */
     max-width: 1250px;
-    margin: auto;
+    margin: 0 auto;
     height: 100px;
 }
 
@@ -368,20 +368,17 @@ nav {
 /* Middle Section (Max working) */
 
 .middle-section {
-    
     max-width: 1250px;
-    
     margin: auto;
 }
 .exclusive, .carousel, .exclusive > .exclusive-menu {
     display: flex;
-    
 }
 .exclusive {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dddddd;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 30px;
 }
 .exclusive .exclusive-menu a {
