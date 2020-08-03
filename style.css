@@ -307,69 +307,65 @@ nav {
     display: flex;
     justify-content: flex-start;
 }
-.upper-carousel {
-    height: 450px;
-    align-self: flex-end;
-    position: relative;
-    z-index: 0;
-}
-.upper-carousel .item {
-    text-align: center;
-}
-.upper-carousel .shop-now {
-    position: absolute;
-    top: 70px;
-    left: 90px;
-}    
-.upper-carousel .square-icons {
-    position: absolute;
-    bottom: 45px;
-    left: 40%;
-}
-.upper-carousel i {
-    padding: 2.3px;
-    border: 2.2px solid #859499;
-    margin: 2px;
-    color: #859499;
-    cursor: pointer;
-}
-.upper-carousel i:hover {
-    color: #FF334E;
-    border-color: #FF334E;
-}
+    .upper-carousel {
+        height: 450px;
+        align-self: flex-end;
+        position: relative;
+        z-index: 0;
+    }
+        .upper-carousel .item {
+            text-align: center;
+        }
+        .upper-carousel .shop-now {
+            position: absolute;
+            top: 70px;
+            left: 90px;
+        }
+            .upper-carousel .shop-now h1 {
+                font-size: 3em;
+                font-weight: 900;
+            }
+            .upper-carousel .shop-now button {
+                background-color: #FF334E;
+                color: white;
+                border: none;
+                padding: 15px 35px;
+                transition: 0.5s;
+            }
+            .upper-carousel .shop-now button:hover {
+                background-color: transparent;
+                border: 1px solid #FF334E;
+                color: #FF334E;
+            }
+        .upper-carousel .square-icons {
+            position: absolute;
+            bottom: 45px;
+            left: 40%;
+        }
+        .upper-carousel i {
+            padding: 2.3px;
+            border: 2.2px solid #859499;
+            margin: 2px;
+            color: #859499;
+            cursor: pointer;
+        }
+            .upper-carousel i:hover {
+                color: #FF334E;
+                border-color: #FF334E;
+            }
+        .upper-carousel img {
+            width: 85%;
+        }
 
-
-.upper-carousel .shop-now h1 {
-    font-size: 3em;
-    font-weight: 900;
-}
-.upper-carousel .shop-now button {
-    background-color: #FF334E;
-    color: white;
-    border: none;
-    padding: 15px 35px;
-    transition: 0.5s;
-}
-.upper-carousel .shop-now button:hover {
-    background-color: transparent;
-    border: 1px solid #FF334E;
-    color: #FF334E;
-}
-
-
-.upper-carousel img {
-    width: 85%;
-}
-.dropdown-menu {
-    margin-top: 0;
-}
-
+    .dropdown-menu {
+        margin-top: 0;
+    }
 
 /* Middle Section (Max working) */
-
 .middle-section {
     max-width: 1250px;
     margin: auto;
+    background-color: indianred;
 }
 .exclusive, .carousel, .exclusive > .exclusive-menu {
     display: flex;
@@ -382,11 +378,11 @@ nav {
     margin-bottom: 30px;
 }
 .exclusive .exclusive-menu a {
-        margin: 0 15px;
-        text-decoration: none;
-        color: #1D2224;
-        font-weight: 600;
-    }
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1D2224;
+    font-weight: 600;
+}
     .exclusive .exclusive-menu a:focus {
         color: #FF324D;
     }
@@ -398,65 +394,61 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .carousel .previous, .carousel .next {
-        align-self: center; 
-    }
-    .carousel .select {
-        width: 250px;
-        box-shadow: 0 0 11px rgba(0,0,0,0.1);
-        background-color: #faf9f9;
-        margin: 20px;
-        position: relative;
-    }
-        .carousel .select .new {
-            font-size: small;
-            position: absolute;
-            left: 10px;
-            top: 10px;
-            background-color: #FF9F00;
-            color: white;
-            padding: 2px 10px;
-            border-radius: 1.2px;
+        .carousel .previous, .carousel .next {
+            align-self: center; 
         }
-
-
+        .carousel .select {
+            width: 250px;
+            box-shadow: 0 0 11px rgba(0,0,0,0.1);
+            background-color: #faf9f9;
+            margin: 20px;
+            position: relative;
+        }
+            .carousel .select .new {
+                font-size: small;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                background-color: #FF9F00;
+                color: white;
+                padding: 2px 10px;
+                border-radius: 1.2px;
+            }
         .select .info {
             padding: 10px;
         }
-        .select .info div {
-            margin: 7px 0;
-        }
-        .select .info h4 {
-            margin: 0;
-        }
-        .select .info .price {
-            color: red;
-            font-weight: bolder;
-        }
-        .select .info .old-price {
-            text-decoration: line-through;
-            color: rgb(128, 128, 128);
-        }
-        .select .info .off {
-            color: rgb(29, 185, 29);
-        }
-
-        .select .info .select-price {
-            display: flex;
-        }
-        .select .info .select-price div {
-            margin: 0 5px;
-        }
-        .select .info .rating .checked {
-            color: gold;
-        }
-        .select .info .rating span {
-            color: #8F95A7;
-        }
-        .select .info .rating span {
-            cursor: pointer;
-        }
+            .select .info div {
+                margin: 7px 0;
+            }
+            .select .info h4 {
+                margin: 0;
+            }
+            .select .info .price {
+                color: red;
+                font-weight: bolder;
+            }
+            .select .info .old-price {
+                text-decoration: line-through;
+                color: rgb(128, 128, 128);
+            }
+            .select .info .off {
+                color: rgb(29, 185, 29);
+            }
+            .select .info .select-price {
+                display: flex;
+            }
+            .select .info .select-price div {
+                margin: 0 5px;
+            }
+            .select .info .rating .checked {
+                color: gold;
+            }
+            .select .info .rating span {
+                color: #8F95A7;
+            }
+            .select .info .rating span {
+                cursor: pointer;
+            }
 
     /*  select cart section */
         .middle-section .carousel .select .cart {
@@ -489,7 +481,6 @@ nav {
         .middle-section .carousel .select .cart a:nth-child(4) {
             transition: all 0.6s ease-in-out;
         }
-
     .carousel .select:hover .cart a {
         opacity: 1;
     }
@@ -501,7 +492,6 @@ nav {
     .carousel .select:hover .cart {
         padding-top: 0em;
     }
-
     .carousel .select:hover img {
         opacity: 0.6;
     }
@@ -510,11 +500,6 @@ nav {
         transition: all 0.3s ease-in-out;
         cursor: pointer;
     }
-
-
-
-
-
 /**/
 .middle-section .super-sale {
     margin: 60px auto;
@@ -602,7 +587,6 @@ nav {
         .select .info .rating span {
             color: #8F95A7;
         }
-
 /**/
 .middle-section .super-sale {
     text-align: center;
@@ -634,41 +618,28 @@ nav {
 
 /* PLEASE STYLE BELLOW THIS CHUNK  */
 
+/* Where are these .main-menu and .flag classes in the html file? */
 .main-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-
-.languagebar {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-}
-
 .flag {
     border-radius: 10px;
 }
-
-/* .{
-    justify-content: space-evenly;
-} */
-
-
    
    /*FOOTER SECTION PLEASE DON'T MODIFY */
    /*************************************/
    /* footer style */
 
-   footer {
+footer {
     display: flex;
     flex-wrap: wrap;
 }
-
-footer a {
-    text-decoration: none;
-    color: #9A9897;
-}
+    footer a {
+        text-decoration: none;
+        color: #9A9897;
+    }
 
 .subscribe-bar {
     width: 100%;
@@ -678,12 +649,10 @@ footer a {
     flex-direction: row;
     background: #1D2224;
     text-align: center;
-
     /*Centering horizontally in flex */
     justify-content: center;
     /*Centering vertically in flex */
     align-items: center;
-
 }
 
 .subscribe-bar h3 {
@@ -695,8 +664,7 @@ footer a {
     padding-left: 100px;
 }
 
-.subscribe-bar #email-input,
-.subscribe-bar #subscribe-btn {
+.subscribe-bar #email-input, .subscribe-bar #subscribe-btn {
     height: 40px;
 }
 
@@ -721,25 +689,20 @@ footer a {
 .footer-container {
     margin: 0 auto;
 }
+    .footer-container>div {
+        width: 80%;
+    }
 
-.footer-container>div {
-    width: 80%;
-}
-
-.links-container,
-.services,
-.social-links {
+.links-container, .services, .social-links {
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.useful-links>div,
-.my-account>div {
+.useful-links>div, .my-account>div {
     margin-bottom: 10px;
 }
 
@@ -754,7 +717,6 @@ footer a {
 .business-info {
     width: 25%;
     color: #9A9897;
-
 }
 
 .business-info .icons {
@@ -765,10 +727,7 @@ footer a {
     margin: 15px auto;
 }
 
-.business-info,
-.useful-links,
-.my-account,
-.instagram {
+.business-info, .useful-links, .my-account, .instagram {
     font-size: smaller;
 }
 
@@ -815,7 +774,6 @@ footer a {
 
 .icons .fa-facebook {
     background-color: #3B5998;
-
 }
 
 .icons .fa-twitter {
@@ -842,22 +800,18 @@ footer a {
 
 .payment .fa-cc-visa {
     background-color: rgb(0, 92, 174);
-
 }
 
 .payment .fa-cc-discover {
     background-color: rgb(241, 149, 75);
-
 }
 
 .payment .fa-cc-mastercard {
     background-color: rgb(231, 1, 51);
-
 }
 
 .payment .fa-cc-paypal {
     background-color: rgb(44, 88, 144);
-
 }
 
 .payment .fa-cc-amex {
