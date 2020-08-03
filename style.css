@@ -207,13 +207,17 @@ body {
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-/*    display: none; */
+    margin-top: 50px;
+    /*    display: none; */
+}
+.categories .dropdown:hover > .dropdown-menu.nested {
+    margin-top: 0;
 }
 .categories .dropdown:hover > .dropdown-menu.nested,
 .dropdown-menu.nested:hover {
     display: flex;
     opacity: 1;
-    visibility: visible; 
+    visibility: visible;
 }
 .nested .nested-image2 {
     width: 190px;
