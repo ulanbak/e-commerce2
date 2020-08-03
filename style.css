@@ -17,7 +17,7 @@ body {
     /* width: 1100px; */
     max-width: 1250px;
     margin: auto;
-    padding: 10px;
+    padding: 15px 0;
     color: gray;
     font-size: 15px;
 }
@@ -35,7 +35,7 @@ body {
     margin-left: 5px;
 }
 
-.left    {
+.left {
     display: flex;
 }
 
@@ -47,7 +47,7 @@ body {
     align-items: center;
     /* width: 1100px; */
     max-width: 1250px;
-    margin: auto;
+    margin: 0 auto;
     height: 100px;
 }
 
@@ -572,41 +572,28 @@ nav {
 
 /* PLEASE STYLE BELLOW THIS CHUNK  */
 
+/* Where are these .main-menu and .flag classes in the html file? */
 .main-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-
-.languagebar {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-}
-
 .flag {
     border-radius: 10px;
 }
-
-/* .{
-    justify-content: space-evenly;
-} */
-
-
    
    /*FOOTER SECTION PLEASE DON'T MODIFY */
    /*************************************/
    /* footer style */
 
-   footer {
+footer {
     display: flex;
     flex-wrap: wrap;
 }
-
-footer a {
-    text-decoration: none;
-    color: #9A9897;
-}
+    footer a {
+        text-decoration: none;
+        color: #9A9897;
+    }
 
 .subscribe-bar {
     width: 100%;
@@ -616,12 +603,10 @@ footer a {
     flex-direction: row;
     background: #1D2224;
     text-align: center;
-
     /*Centering horizontally in flex */
     justify-content: center;
     /*Centering vertically in flex */
     align-items: center;
-
 }
 
 .subscribe-bar h3 {
@@ -633,8 +618,7 @@ footer a {
     padding-left: 100px;
 }
 
-.subscribe-bar #email-input,
-.subscribe-bar #subscribe-btn {
+.subscribe-bar #email-input, .subscribe-bar #subscribe-btn {
     height: 40px;
 }
 
@@ -659,25 +643,20 @@ footer a {
 .footer-container {
     margin: 0 auto;
 }
+    .footer-container>div {
+        width: 80%;
+    }
 
-.footer-container>div {
-    width: 80%;
-}
-
-.links-container,
-.services,
-.social-links {
+.links-container, .services, .social-links {
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.useful-links>div,
-.my-account>div {
+.useful-links>div, .my-account>div {
     margin-bottom: 10px;
 }
 
@@ -692,7 +671,6 @@ footer a {
 .business-info {
     width: 25%;
     color: #9A9897;
-
 }
 
 .business-info .icons {
@@ -703,10 +681,7 @@ footer a {
     margin: 15px auto;
 }
 
-.business-info,
-.useful-links,
-.my-account,
-.instagram {
+.business-info, .useful-links, .my-account, .instagram {
     font-size: smaller;
 }
 
@@ -753,7 +728,6 @@ footer a {
 
 .icons .fa-facebook {
     background-color: #3B5998;
-
 }
 
 .icons .fa-twitter {
@@ -780,22 +754,18 @@ footer a {
 
 .payment .fa-cc-visa {
     background-color: rgb(0, 92, 174);
-
 }
 
 .payment .fa-cc-discover {
     background-color: rgb(241, 149, 75);
-
 }
 
 .payment .fa-cc-mastercard {
     background-color: rgb(231, 1, 51);
-
 }
 
 .payment .fa-cc-paypal {
     background-color: rgb(44, 88, 144);
-
 }
 
 .payment .fa-cc-amex {
