@@ -27,6 +27,10 @@ body {
     border-right: 1px solid lightgray;
 }
 
+.languagebar .left .download .fa {
+    color: gray;
+}
+
 .languagebar .left .download, .languagebar .left .download a {
     margin-left: 5px;
 }
