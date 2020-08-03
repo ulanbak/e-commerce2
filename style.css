@@ -203,6 +203,7 @@ body {
     box-shadow: 1px 40px 10.5px rgba(0,0,0,0.1);
     transition: all 0.5s ease-out;
     background-color: white;
+    width: max-content;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
@@ -259,7 +260,7 @@ body {
 
 .upper-section .categories {
     width: 300px;
-    margin-right: 0;
+    margin-right: 50px;
     box-shadow: 2px 5px 11px rgba(0,0,0,0.1);
     padding-left: 0px;
     position: relative;
