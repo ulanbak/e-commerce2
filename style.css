@@ -211,21 +211,26 @@ body {
 
 
 .categories .dropdown .dropdown-menu.nested  {
-    left: 33.6em;
+    left: 18.6em;
     position: absolute;
     box-shadow: 1px 40px 10.5px rgba(0,0,0,0.1);
     transition: all 0.5s ease-out;
     background-color: white;
+    width: max-content;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-/*    display: none; */
+    margin-top: 50px;
+    /*    display: none; */
+}
+.categories .dropdown:hover > .dropdown-menu.nested {
+    margin-top: 0;
 }
 .categories .dropdown:hover > .dropdown-menu.nested,
 .dropdown-menu.nested:hover {
     display: flex;
     opacity: 1;
-    visibility: visible; 
+    visibility: visible;
 }
 .nested .nested-image2 {
     width: 190px;
@@ -272,9 +277,10 @@ body {
 
 .upper-section .categories {
     width: 300px;
-    margin-right: 0;
+    margin-right: 50px;
     box-shadow: 2px 5px 11px rgba(0,0,0,0.1);
     padding-left: 0px;
+    position: relative;
 }
    /* .dropdown.dropdown-mega-menu {
         position: relative;
@@ -297,10 +303,10 @@ body {
 
 
 nav {
-    max-width: 1250px;    
+    max-width: 1250px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .upper-carousel {
     height: 450px;
