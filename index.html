@@ -13,8 +13,25 @@ Aziz -footer, starting from Subscribe our newsletter. -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
 </head>
-<body>
+<body onload="startTime()">
     <div class="languagebar">
         <div class="left">
             <div class="ground">Free Ground Shipping Over $250</div>
@@ -363,11 +380,11 @@ Aziz -footer, starting from Subscribe our newsletter. -->
         <div class="upper-carousel">
             <div class="item">
                 <img src="https://templatemanja.com/shopwise/demo/assets/images/banner5.jpg" alt="New york">
-            </div>
-            <div class="shop-now">
-                <span>Get Up To 50% Off Today</span>
-                <h1>Men's Fashion</h1>
-                <button>SHOP NOW</button>
+                <div class="shop-now">
+                    <span>Get Up To 50% Off Today</span>
+                    <h1>Men's Fashion</h1>
+                    <button>SHOP NOW</button>
+                </div>
             </div>
             <div class="square-icons">
                 <i class="fa fa-square"></i>
@@ -524,11 +541,9 @@ Aziz -footer, starting from Subscribe our newsletter. -->
 <!--Second Carousel-->
         <div class="exclusive">
             <h1>Deal Of The Day</h1>
-            <div class="exclusive-menu">
-                <a id="exclusive1" href="#exclusive1">New Arrival</a>
-                <a id="exclusive2" href="#exclusive2">Best Sellers</a>
-                <a id="exclusive3" href="#exclusive3">Featured</a>
-                <a id="exclusive4" href="#exclusive4">Special Offer</a>
+            <div class="date-time">
+                <i class="fa fa-clock-o"></i>
+                <div id="txt"></div>
             </div>
         </div>
         <div class="carousel">

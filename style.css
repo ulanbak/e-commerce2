@@ -310,7 +310,7 @@ nav {
     max-width: 1250px;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .upper-carousel {
     height: 450px;
@@ -319,17 +319,18 @@ nav {
     z-index: 0;
 }
 .upper-carousel .item {
-    text-align: center;
+    text-align: end;
 }
-.upper-carousel .shop-now {
+.upper-carousel .item .shop-now {
     position: absolute;
-    top: 70px;
-    left: 90px;
+    top: 50px;
+    left: 150px;
+    text-align: justify;
 }    
 .upper-carousel .square-icons {
     position: absolute;
     bottom: 45px;
-    left: 40%;
+    left: 50%;
 }
 .upper-carousel i {
     padding: 2.3px;
@@ -364,6 +365,7 @@ nav {
 
 .upper-carousel img {
     width: 85%;
+    position: relative;
 }
 .dropdown-menu {
     margin-top: 0;
@@ -371,16 +373,30 @@ nav {
 
 
 /* Middle Section (Max working) */
-
+#txt {
+    font-size: xx-large;
+}
+.date-time {
+    display: flex;
+    align-items: center;
+}
+.date-time i {
+    margin-right: 10px;
+    font-size: xx-large;
+    color: red;
+    
+}
 .middle-section {
     
-    max-width: 1250px;
+   
     
     margin: auto;
 }
 .exclusive, .carousel, .exclusive > .exclusive-menu {
-    display: flex;
-    
+    display: flex;   
+}
+.exclusive .exclusive-menu a:hover {
+    color: red;
 }
 .exclusive {
     justify-content: space-between;
@@ -388,6 +404,7 @@ nav {
     border-bottom: 1px solid #dddddd;
     margin: auto;
     margin-bottom: 30px;
+    max-width: 1250px;
 }
 .exclusive .exclusive-menu a {
         margin: 0 15px;
@@ -404,17 +421,19 @@ nav {
     .carousel {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        max-width: 1300px;
+        margin: auto;
     }
 
     .carousel .previous, .carousel .next {
         align-self: center; 
     }
     .carousel .select {
-        width: 250px;
+        width: 290px;
+        margin: 10px;
         box-shadow: 0 0 11px rgba(0,0,0,0.1);
         background-color: #faf9f9;
-        margin: 20px;
         position: relative;
     }
         .carousel .select .new {
@@ -520,105 +539,16 @@ nav {
     }
 
 
-
-
-
-/**/
-.middle-section .super-sale {
-    margin: 60px auto;
-
-
-}
-.exclusive {
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #dddddd;
-    max-width: 1128px;
-    min-width: 900px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-    .exclusive .exclusive-menu a {
-        margin: 0 15px;
-        text-decoration: none;
-        color: #1D2224;
-        font-weight: 600;
-    }
-    .exclusive .exclusive-menu a:focus {
-        color: #FF324D;
-    }
-    .exclusive h1 {
-        font-size: xx-large;
-    }
-.carousel {
-    justify-content: center; 
-}
-    .carousel .previous, .carousel .next {
-        align-self: center; 
-    }
-    .carousel .select {
-        width: 250px;
-        box-shadow: 0 0 11px rgba(0,0,0,0.1);
-        background-color: #faf9f9;
-        margin: 20px;
-        position: relative;
-    }
-        .carousel .select .new {
-            font-size: small;
-            position: absolute;
-            left: 10px;
-            top: 10px;
-            background-color: #FF9F00;
-            color: white;
-            padding: 2px 10px;
-            border-radius: 1.2px;
-        }
-
-        .select img {
-            width: 100%;
-        }
-        .select .info {
-            padding: 10px;
-        }
-        .select .info div {
-            margin: 7px 0;
-        }
-        .select .info h4 {
-            margin: 0;
-        }
-        .select .info .price {
-            color: red;
-            font-weight: bolder;
-        }
-        .select .info .old-price {
-            text-decoration: line-through;
-            color: rgb(128, 128, 128);
-        }
-        .select .info .off {
-            color: rgb(29, 185, 29);
-        }
-
-        .select .info .select-price {
-            display: flex;
-        }
-        .select .info .select-price div {
-            margin: 0 5px;
-        }
-        .select .info .rating .checked {
-            color: gold;
-        }
-        .select .info .rating span {
-            color: #8F95A7;
-        }
+ 
 
 /**/
 .middle-section .super-sale {
     text-align: center;
-    margin: 60px 0;
+
 }
 
     .middle-section .super-sale img {
-        width: 540px;
+        width: 600px;
         text-align: center;
         margin: 20px;
     }
